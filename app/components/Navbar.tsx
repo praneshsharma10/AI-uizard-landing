@@ -81,12 +81,23 @@ export default function Navbar() {
               Sign up for free
             </Link> */}
 
-          <Link
+          {/* <Link
             href="/"
             className="relative px-4 py-2 text-white rounded-md transition bg-[radial-gradient(42.88%_158.65%_at_50%_100%,_rgb(97,_177,_255)_0%,_rgb(30,_144,_255)_100%)] 
-            shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] hover:brightness-110">
+            shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] hover:brightness-90 ">
+            Sign up for free
+          </Link> */}
+          <Link
+            href="/"
+            className="relative px-4 py-2 text-white rounded-md transition 
+                      bg-[radial-gradient(42.88%_158.65%_at_50%_100%,_rgb(97,_177,_255)_0%,_rgb(30,_144,_255)_100%)] 
+                      shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] 
+                      hover:bg-blue-400
+                      hover:shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] 
+                      hover:brightness-90">
             Sign up for free
           </Link>
+
 
           </motion.div>
 

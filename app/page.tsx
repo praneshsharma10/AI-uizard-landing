@@ -7,6 +7,7 @@ import HeroSection from './components/HeroSection';
 
 
 
+
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
 
@@ -23,6 +24,8 @@ export default function Home() {
     >
       <Navbar />
       <HeroSection />
+
+
       
     </motion.main>
   );
