@@ -26,14 +26,23 @@ export default function Navbar() {
   
 
   return (
-    <header className="fixed w-full z-50 bg-[#0F0018]/80 backdrop-blur-sm">
+    // <header className="fixed w-full h-auto z-50 bg-[#0F0018]/80 backdrop-blur-sm">
 
-      <div className="w-full text-center bg-[#0F0018]/80-to-r from-purple-500 via-indigo-500 to-blue-500 py-2">
+    //   <div className="w-full text-center bg-[#0F0018]/80-to-r from-purple-500 via-indigo-500 to-blue-500 py-2">
+    //     <p className="text-white text-sm">
+    //       <span className="inline-block mr-2">✨</span> 
+    //       Autodesigner 2.0 is here. The most popular UI generator just got even better!
+    //     </p>
+    //   </div>
+    <header className="fixed w-full h-auto z-50 bg-[#0F0018]/80 backdrop-blur-sm">
+      <div className="w-full text-center bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 py-2">
         <p className="text-white text-sm">
-          <span className="inline-block mr-2">✨</span> 
+          <span className="inline-block mr-2">✨</span>
           Autodesigner 2.0 is here. The most popular UI generator just got even better!
         </p>
       </div>
+
+
 
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,7 +84,7 @@ export default function Navbar() {
             className="hidden md:flex items-center space-x-4"
           >
             <Link href="/" className="text-white hover:text-purple-300 transition">Pricing</Link>
-            <Link href="/" className="text-white hover:text-purple-300 transition">sales</Link>
+            <Link href="/" className="text-white hover:text-purple-300 transition">Contact Sales</Link>
             <Link href="/" className="text-white hover:text-purple-300 transition">Log in</Link>
             {/* <Link href="/signup" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition">
               Sign up for free

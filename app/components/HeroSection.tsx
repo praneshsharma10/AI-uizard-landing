@@ -247,8 +247,8 @@ export default function HeroSection() {
                 placeholder="An e-commerce website design for a clothing brand"
                 className="w-full p-4 rounded-lg bg-[#201130] border border-purple-900 text-white"
               />
-              <button className="bg-purple-600 hover:bg-purple-700 text-white font-medium py-4 px-6 rounded-lg transition whitespace-nowrap flex items-center">
-                <span className="mr-2">✨</span> Generate
+              <button className="text-white bg-gradient-to-r from-purple-500 via-indigo-500 to-blue-500 hover:bg-purple-700 font-medium py-4 px-6 rounded-lg transition whitespace-nowrap flex items-center">
+                <span className="mr-2">✨</span>Generate
               </button>
             </div>
           </motion.div>
