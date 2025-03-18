@@ -261,7 +261,7 @@ export default function HeroSection() {
             >
               <iframe
                 className="rounded-lg w-[90vw] md:w-[800px] h-[50vw] md:h-[450px]"
-                src="public/assets/hero-video.mp4"
+                src="https://www.youtube.com/embed/_jP1Ki4b6cs?autoplay=1&mute=1"
                 title="YouTube Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -269,7 +269,7 @@ export default function HeroSection() {
             </div>
           </div> */}
 
-        <div className="flex justify-center mb-16 pt-24">
+        <div className="flex justify-center mb-4 pt-24">
         <div
             className="relative rounded-2xl p-5 md:p-6 border-[2px] border-white/20 
                     bg-[#212121]/30 backdrop-blur-[50px] shadow-lg transition-shadow duration-300"
@@ -295,4 +295,4 @@ export default function HeroSection() {
 }
 
 
-// https://www.youtube.com/embed/_jP1Ki4b6cs?autoplay=1&mute=1
+

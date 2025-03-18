@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-
-
+import LogoSlider from './components/LogoSlider';
+// import UiDesign from './components/UiDesign';
 
 
 export default function Home() {
@@ -24,6 +24,7 @@ export default function Home() {
     >
       <Navbar />
       <HeroSection />
+      <LogoSlider />
 
 
       
