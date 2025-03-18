@@ -21,12 +21,12 @@ export const LogoSlider = () => {
 
       <div className="container">
         <div className="flex flex-col items-center gap-5">
-          {/* Header */}
+
           <h2 className="text-white text-center text-lg md:text-xl font-semibold">
-            Trusted by individuals and teams at the world's boldest companies
+            Trusted by individuals and teams at the worlds boldest companies
           </h2>
 
-          {/* Scrolling Logo Section */}
+
           <div className="flex w-full overflow-hidden relative">
             <motion.div
               initial={{ translateX: "-50%" }}
