@@ -6,7 +6,8 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import LogoSlider from './components/LogoSlider';
 import UiDesign from './components/UiDesign';
-
+// import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 export default function Home() {
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
@@ -26,6 +27,8 @@ export default function Home() {
       <HeroSection />
       <LogoSlider />
       <UiDesign/>
+      {/* <Testimonials/> */}
+      <Footer/>
 
       
     </motion.main>

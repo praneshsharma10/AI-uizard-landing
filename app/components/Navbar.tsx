@@ -86,18 +86,10 @@ export default function Navbar() {
             <Link href="/" className="text-white hover:text-purple-300 transition">Pricing</Link>
             <Link href="/" className="text-white hover:text-purple-300 transition">Contact Sales</Link>
             <Link href="/" className="text-white hover:text-purple-300 transition">Log in</Link>
-            {/* <Link href="/signup" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md transition">
-              Sign up for free
-            </Link> */}
-
-          {/* <Link
-            href="/"
-            className="relative px-4 py-2 text-white rounded-md transition bg-[radial-gradient(42.88%_158.65%_at_50%_100%,_rgb(97,_177,_255)_0%,_rgb(30,_144,_255)_100%)] 
-            shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] hover:brightness-90 ">
-            Sign up for free
-          </Link> */}
-          <Link
-            href="/"
+            
+    
+          <button
+            
             className="relative px-4 py-2 text-white rounded-md transition 
                       bg-[radial-gradient(42.88%_158.65%_at_50%_100%,_rgb(97,_177,_255)_0%,_rgb(30,_144,_255)_100%)] 
                       shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] 
@@ -105,7 +97,7 @@ export default function Navbar() {
                       hover:shadow-[inset_0px_1px_1px_rgb(105,181,255),_0px_2px_6px_rgba(3,3,3,0.16)] 
                       hover:brightness-90">
             Sign up for free
-          </Link>
+          </button>
 
 
           </motion.div>

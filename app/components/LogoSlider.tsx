@@ -118,6 +118,12 @@ export const LogoSlider = () => {
               ))}
             </motion.div>
           </div>
+
+          
+          
+
+
+
         </div>
       </div>
     </section>
