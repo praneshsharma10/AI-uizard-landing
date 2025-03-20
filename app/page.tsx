@@ -6,7 +6,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import LogoSlider from './components/LogoSlider';
 import UiDesign from './components/UiDesign';
-// import Testimonials from './components/Testimonials';
+import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
       <HeroSection />
       <LogoSlider />
       <UiDesign/>
-      {/* <Testimonials/> */}
+      <Testimonials/>
       <Footer/>
 
       
