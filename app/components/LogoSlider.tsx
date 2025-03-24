@@ -18,7 +18,10 @@ export const LogoSlider = () => {
   const duplicatedLogos = [...logos, ...logos];
 
   return (
-    <section className="pt-0 py-1 md:py-6 bg-gradient-to-b from-[#0F0018] to-black">
+    <section className="pt-0 py-1 md:py-6 bg-gradient-to-b from-black via-black to-[#0A0013]">
+
+      <div className="h-16 bg-gradient-to-b from-transparent to-black -mt-16"></div>
+      
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center gap-5">
           {/* Header */}
@@ -67,6 +70,7 @@ export const LogoSlider = () => {
 
         </div>
       </div>
+      
     </section>
   );
 };

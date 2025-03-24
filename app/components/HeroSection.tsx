@@ -203,6 +203,8 @@ export default function HeroSection() {
       >
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_#3b0764_0%,_#0F0018_60%)] opacity-90"></div>
+        {/* //fade to black in bottom */}
+        <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-b from-transparent to-black"></div>
       </motion.div>
 
       {/* Content */}
