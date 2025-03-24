@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-16">
+    <footer className="pt-60 bg-black text-white py-16">
       <div className="container mx-auto px-4 max-w-7xl">
         
         {/* //footer content */}

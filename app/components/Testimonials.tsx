@@ -280,7 +280,7 @@ const InfiniteScrollColumn: React.FC<{ testimonials: Testimonial[], scrollSpeed?
       </motion.div>
       
       
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none pb-80"></div>
     </div>
   );
 };
